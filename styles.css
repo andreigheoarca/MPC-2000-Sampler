@@ -29,3 +29,23 @@ p {
   text-align: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+  .mpc-sampler-container {
+    width: 455px;
+    height: 341.25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mpc-sampler-container {
+    width: 630px;
+    height: 472.5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+}
