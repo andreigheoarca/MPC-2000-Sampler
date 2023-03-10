@@ -14,7 +14,7 @@ I reduced the volume of each individual audio sample before adding them to the p
 
 ## Project lookback and future considerations 
 
-For now, I feel like the project is mostly hardcoded and I am convinced that I will come back to refactor the code in a more elegant solution. 
+For now, I feel like the project is mostly hardcoded and I am convinced that I will come back to refactor the code in a more elegant way. 
 
 Currently each audio sample is manually assigned to each individiual pad and triggered using multiple if statements in order to identify which one is pressed.  I had initially tried to use array methods in order to assign each sound to each individiual pad but the samples would not play properly so I decided to manualy hard code them in order to at least see how a working project would look like and in the end I feel like it turned out pretty good.
 
